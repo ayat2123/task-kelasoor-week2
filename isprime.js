@@ -41,12 +41,23 @@
 // bmi(82,2)
 ///////////////////
 
-function leap(num){
-    if( num%100==0 && num%400==0){
-        console.log("leap year")
+// function leap(num){
+//     if( num%100==0 && num%400==0){
+//         console.log("leap year")
+//     }
+//     else{
+//         console.log("not leap year")
+//     }
+// }
+// leap(2024)
+/////////////////
+function Vowel(str){
+    const vowels =["a", "e","i","o","u","A","E","O","U"]
+    volwes.test(str)
+        console.log(true)
     }
-    else{
-        console.log("not leap year")
-    }
-}
-leap(2024)
+Vowel("hello")
+////////////////
+
+
+
