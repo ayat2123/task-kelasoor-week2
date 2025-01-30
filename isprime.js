@@ -17,28 +17,28 @@
 //     }
 // }
 // convert(23)
-// const range = (1,2,3,4 ,5,6,7,8,9,10)
-// function inrange(num){
-//     for( const element of range){
-//        if( num == element){
-//     console.log("true")
-//     }
-//    }
-// }
-//inrange(8)
+const range = (1,2,3,4 ,5,6,7,8,9,10)
+function inrange(num){
+    for( const element of range){
+       if( num == element){
+    console.log("true")
+    }
+   }
+}
+inrange(8)
 /////////////////////
-// function bmi(weight,height){
-//     const result = weight / height**2
-//     if( 16<=result<18.5)
-//         alert(underweight)
-//     else if(18.5<=result<25)
-//         alert(normalweight)
-//     else if(25<=result<30)
-//         alert(overweight)
-//     else if(30<=result)
-//         alert(obesity)
-// }
-// bmi(82,2)
+function bmi(weight,height){
+    const result = weight / height**2
+    if( 16<=result<18.5)
+        alert(underweight)
+    else if(18.5<=result<25)
+        alert(normalweight)
+    else if(25<=result<30)
+        alert(overweight)
+    else if(30<=result)
+        alert(obesity)
+}
+bmi(82,2)
 ///////////////////
 
 // function leap(num){
@@ -58,6 +58,13 @@ function Vowel(str){
     }
 Vowel("hello")
 ////////////////
+function reverse(str) {
+    const re = reverse()
+    console.log(re)
+}
+
+reverse("hello")
+
 
 
 
